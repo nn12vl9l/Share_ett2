@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>このアプリではヘルスケアデータを使用します</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>このアプリではヘルスケアデータを使用します</string>
+	<key>NSCameraUsageDescription</key>
+	<string>このアプリではカメラを使用します</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>このアプリではアルバムを使用します</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

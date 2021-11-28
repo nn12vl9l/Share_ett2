@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56329B5A274FE5890020DA06 /* indexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B59274FE5890020DA06 /* indexViewController.swift */; };
+		56329B5C2750773E0020DA06 /* Charenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B5B2750773E0020DA06 /* Charenge.swift */; };
+		56329B5E2750827C0020DA06 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B5D2750827C0020DA06 /* ShowViewController.swift */; };
+		56329B602750BC7E0020DA06 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B5F2750BC7D0020DA06 /* CreateViewController.swift */; };
+		56329B622750C0550020DA06 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B612750C0550020DA06 /* Alert.swift */; };
+		56329B642750C3D80020DA06 /* PostCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B632750C3D70020DA06 /* PostCreateViewController.swift */; };
+		56329B662751A37D0020DA06 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B652751A37D0020DA06 /* Post.swift */; };
+		56329B682751A8A40020DA06 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B672751A8A40020DA06 /* PostViewController.swift */; };
+		56329B6A2751B4B30020DA06 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56329B692751B4B30020DA06 /* Comment.swift */; };
+		56329B6D2752032D0020DA06 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56329B6C2752032D0020DA06 /* HealthKit.framework */; };
 		56F64340274FC0410011FE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F6433F274FC0410011FE07 /* AppDelegate.swift */; };
 		56F64342274FC0410011FE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F64341274FC0410011FE07 /* SceneDelegate.swift */; };
 		56F64344274FC0410011FE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F64343274FC0410011FE07 /* ViewController.swift */; };
 		56F64347274FC0410011FE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F64345274FC0410011FE07 /* Main.storyboard */; };
 		56F64349274FC0460011FE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F64348274FC0460011FE07 /* Assets.xcassets */; };
 		56F6434C274FC0460011FE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F6434A274FC0460011FE07 /* LaunchScreen.storyboard */; };
+		56F64354274FC1AB0011FE07 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F64353274FC1AB0011FE07 /* WelcomeViewController.swift */; };
+		56F64357274FC9710011FE07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F64356274FC9710011FE07 /* LoginViewController.swift */; };
+		A479B080BE10C6DD65B30FB3 /* Pods_Share_ett.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B3C0CFEA3CAC29417F26FC /* Pods_Share_ett.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56329B59274FE5890020DA06 /* indexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indexViewController.swift; sourceTree = "<group>"; };
+		56329B5B2750773E0020DA06 /* Charenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charenge.swift; sourceTree = "<group>"; };
+		56329B5D2750827C0020DA06 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		56329B5F2750BC7D0020DA06 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		56329B612750C0550020DA06 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		56329B632750C3D70020DA06 /* PostCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateViewController.swift; sourceTree = "<group>"; };
+		56329B652751A37D0020DA06 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		56329B672751A8A40020DA06 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		56329B692751B4B30020DA06 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		56329B6B2752032C0020DA06 /* Share_ett.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share_ett.entitlements; sourceTree = "<group>"; };
+		56329B6C2752032D0020DA06 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		56F6433C274FC0410011FE07 /* Share_ett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Share_ett.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F6433F274FC0410011FE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56F64341274FC0410011FE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,11 @@
 		56F64348274FC0460011FE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56F6434B274FC0460011FE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56F6434D274FC0460011FE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F64353274FC1AB0011FE07 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		56F64356274FC9710011FE07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7D33CE65B7876D10C54E2925 /* Pods-Share_ett.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share_ett.release.xcconfig"; path = "Target Support Files/Pods-Share_ett/Pods-Share_ett.release.xcconfig"; sourceTree = "<group>"; };
+		85B3C0CFEA3CAC29417F26FC /* Pods_Share_ett.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Share_ett.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C484E3A729741976AE8C0337 /* Pods-Share_ett.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share_ett.debug.xcconfig"; path = "Target Support Files/Pods-Share_ett/Pods-Share_ett.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +60,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A479B080BE10C6DD65B30FB3 /* Pods_Share_ett.framework in Frameworks */,
+				56329B6D2752032D0020DA06 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364DC2E0CB454DAB915C2A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56329B6C2752032D0020DA06 /* HealthKit.framework */,
+				85B3C0CFEA3CAC29417F26FC /* Pods_Share_ett.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A4F83720806028256519B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C484E3A729741976AE8C0337 /* Pods-Share_ett.debug.xcconfig */,
+				7D33CE65B7876D10C54E2925 /* Pods-Share_ett.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		56F64333274FC0410011FE07 = {
 			isa = PBXGroup;
 			children = (
+				56F64355274FC1BF0011FE07 /* controller */,
 				56F6433E274FC0410011FE07 /* Share_ett */,
 				56F6433D274FC0410011FE07 /* Products */,
+				3A4F83720806028256519B1A /* Pods */,
+				364DC2E0CB454DAB915C2A68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,34 @@
 		56F6433E274FC0410011FE07 /* Share_ett */ = {
 			isa = PBXGroup;
 			children = (
+				56329B6B2752032C0020DA06 /* Share_ett.entitlements */,
 				56F6433F274FC0410011FE07 /* AppDelegate.swift */,
 				56F64341274FC0410011FE07 /* SceneDelegate.swift */,
 				56F64343274FC0410011FE07 /* ViewController.swift */,
 				56F64345274FC0410011FE07 /* Main.storyboard */,
+				56329B5B2750773E0020DA06 /* Charenge.swift */,
+				56329B692751B4B30020DA06 /* Comment.swift */,
+				56329B652751A37D0020DA06 /* Post.swift */,
+				56329B612750C0550020DA06 /* Alert.swift */,
 				56F64348274FC0460011FE07 /* Assets.xcassets */,
 				56F6434A274FC0460011FE07 /* LaunchScreen.storyboard */,
 				56F6434D274FC0460011FE07 /* Info.plist */,
 			);
 			path = Share_ett;
+			sourceTree = "<group>";
+		};
+		56F64355274FC1BF0011FE07 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				56329B59274FE5890020DA06 /* indexViewController.swift */,
+				56329B5D2750827C0020DA06 /* ShowViewController.swift */,
+				56329B632750C3D70020DA06 /* PostCreateViewController.swift */,
+				56329B5F2750BC7D0020DA06 /* CreateViewController.swift */,
+				56329B672751A8A40020DA06 /* PostViewController.swift */,
+				56F64356274FC9710011FE07 /* LoginViewController.swift */,
+				56F64353274FC1AB0011FE07 /* WelcomeViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56F64350274FC0460011FE07 /* Build configuration list for PBXNativeTarget "Share_ett" */;
 			buildPhases = (
+				D048B0578479488B46DFD2C4 /* [CP] Check Pods Manifest.lock */,
 				56F64338274FC0410011FE07 /* Sources */,
 				56F64339274FC0410011FE07 /* Frameworks */,
 				56F6433A274FC0410011FE07 /* Resources */,
+				6D29AEE6F69AFA51382A5B9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +206,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D29AEE6F69AFA51382A5B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Share_ett/Pods-Share_ett-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Share_ett/Pods-Share_ett-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Share_ett/Pods-Share_ett-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D048B0578479488B46DFD2C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Share_ett-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56F64338274FC0410011FE07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				56F64344274FC0410011FE07 /* ViewController.swift in Sources */,
+				56329B5A274FE5890020DA06 /* indexViewController.swift in Sources */,
+				56329B602750BC7E0020DA06 /* CreateViewController.swift in Sources */,
+				56329B6A2751B4B30020DA06 /* Comment.swift in Sources */,
+				56329B682751A8A40020DA06 /* PostViewController.swift in Sources */,
+				56329B662751A37D0020DA06 /* Post.swift in Sources */,
+				56F64354274FC1AB0011FE07 /* WelcomeViewController.swift in Sources */,
+				56329B5E2750827C0020DA06 /* ShowViewController.swift in Sources */,
 				56F64340274FC0410011FE07 /* AppDelegate.swift in Sources */,
+				56329B5C2750773E0020DA06 /* Charenge.swift in Sources */,
+				56329B642750C3D80020DA06 /* PostCreateViewController.swift in Sources */,
+				56F64357274FC9710011FE07 /* LoginViewController.swift in Sources */,
+				56329B622750C0550020DA06 /* Alert.swift in Sources */,
 				56F64342274FC0410011FE07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,9 +410,11 @@
 		};
 		56F64351274FC0460011FE07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C484E3A729741976AE8C0337 /* Pods-Share_ett.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Share_ett/Share_ett.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G2CFW8AQCP;
@@ -297,6 +425,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,9 +441,11 @@
 		};
 		56F64352274FC0460011FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D33CE65B7876D10C54E2925 /* Pods-Share_ett.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Share_ett/Share_ett.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G2CFW8AQCP;
@@ -325,6 +456,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
